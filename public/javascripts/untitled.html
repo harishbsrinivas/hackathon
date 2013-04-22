@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7; IE=EmulateIE9; IE=EmulateIE10;"/>
+    <base href="http://developer.here.com/apiexplorer/examples/api-for-js/places-search/search-by-address.html" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Nokia Maps API for JavaScript Example: Search by address</title>
+    <meta name="description" content="Search by address."/>
+    <meta name="keywords" content="search, services, places, geocode, geocoding"/>
+    <!-- For scaling content for mobile devices, setting the viewport to the width of the device-->
+    <meta name=viewport content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- Styling for example container (NoteContainer & Logger)  -->
+    <link rel="stylesheet" type="text/css" href="http://developer.here.com/apiexplorer/examples/templates/js/exampleHelpers.css"/>
+    <!-- By default we add ?with=all to load every package available, it's better to change this parameter to your use case. Options ?with=maps|positioning|places|placesdata|directions|datarendering|all -->
+    <script type="text/javascript" charset="UTF-8" src="http://api.maps.nokia.com/2.2.4/jsl.js?with=all"></script>
+    <!-- JavaScript for example container (NoteContainer & Logger)  -->
+    <script type="text/javascript" charset="UTF-8" src="http://developer.here.com/apiexplorer/examples/templates/js/exampleHelpers.js"></script>
+    <style type="text/css">
+      html {
+        overflow:hidden;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+
+      #mapContainer {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapContainer"></div>
+    <div id="uiContainer"></div>
+    <script type="text/javascript" id="exampleJsSource">
+/*  Set authentication token and appid
+* WARNING: this is a demo-only key
+* please register on http://api.developer.nokia.com/
+* and obtain your own developer's API key
+*/
+nokia.Settings.set("appId", "_peU-uCkp-j8ovkzFGNU");
+nokia.Settings.set("authenticationToken", "gBoUkAMoxoqIWfxWA5DuMQ");
+
+
+// Get the DOM node to which we will append the map
+var mapContainer = document.getElementById("mapContainer");
+// Create a map inside the map container DOM node
+var map = new nokia.maps.map.Display(mapContainer, {
+  // Initial center and zoom level of the map
+  center: [52.51, 13.4],
+  zoomLevel: 10,
+  components: [
+    new nokia.maps.map.component.Behavior()
+  ]
+});
+
+var searchCenter = new nokia.maps.geo.Coordinate(52.51, 13.4),
+  searchManager = nokia.places.search.manager,
+  resultSet;
+
+// Function for receiving search results from places search and process them
+var processResults = function (data, requestStatus, requestId) {
+  var i, len, locations, marker;
+
+  if (requestStatus == "OK") {
+    // The function findPlaces() and reverseGeoCode() of  return results in slightly different formats
+    locations = data.results ? data.results.items : [data.location];
+    // We check that at least one location has been found
+    if (locations.length > 0) {
+      // Remove results from previous search from the map
+      if (resultSet) map.objects.remove(resultSet);
+      // Convert all found locations into a set of markers
+      resultSet = new nokia.maps.map.Container();
+      for (i = 0, len = locations.length; i < len; i++) {
+        marker = new nokia.maps.map.StandardMarker(locations[i].position, { text: i+1 });
+        resultSet.objects.add(marker);
+      }
+      // Next we add the marker(s) to the map's object collection so they will be rendered onto the map
+      map.objects.add(resultSet);
+      // We zoom the map to a view that encapsulates all the markers into map's viewport
+      map.zoomTo(resultSet.getBoundingBox(), false);
+    } else {
+      alert("Your search produced no results!");
+    }
+  } else {
+    alert("The search request failed");
+  }
+};
+
+/* We create a UI notecontainer for example description and controls
+ * NoteContainer is a UI helper function and not part of the Nokia Maps API
+ * See exampleHelpers.js for implementation details
+ */
+var noteContainer = new NoteContainer({
+  id: "searchUi",
+  parent: document.getElementById("uiContainer"),
+  title: "Search Manager",
+  content:
+    '<p>In this example we demonstrate how to perform a search and how to handle the results using the Search Manager ' +
+    ' and its SearchResultSet component. </p>' +
+    '<p>Search Manager allows you to perform geocode (address to marker), reverse geocode (coordinates to marker) and category searches. </p>' +
+    '<small id="progress"></small>'
+});
+
+/* We perform a geocode search request: translating a given address
+ * into a geolocation
+ */
+var searchTerm = "invalidenstrasse 116 berlin";
+
+// Binding of DOM elements to several variables so we can install event handlers.
+var progressUiElt = document.getElementById("progress");
+
+progressUiElt.innerHTML = "Looking for '" + searchTerm+ "'...";
+searchManager.geoCode({
+  searchTerm: searchTerm,
+  onComplete: processResults
+});
+
+
+    </script>
+  </body>
+</html>

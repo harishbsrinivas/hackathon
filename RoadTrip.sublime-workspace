@@ -1,0 +1,639 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pl",
+				"play"
+			],
+			[
+				"Re",
+				"Result"
+			],
+			[
+				"CURR",
+				"CURRENT_MAX"
+			],
+			[
+				"CURRENT",
+				"CURRENT_LOW"
+			],
+			[
+				"sdc",
+				"sdclcms"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Paca",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"sta",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"set Syntax: j",
+				"Set Syntax: Java"
+			],
+			[
+				"play",
+				"Set Syntax: Play Routes"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"pacla",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"paclk",
+				"Package Control: Install Package"
+			],
+			[
+				"Pacl",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 570.0
+	},
+	"console":
+	{
+		"height": 341.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/usr/local/mod/moderation-test/moderation-test-common/src/main/groovy/com/nokia/moderation/test/common/utils/ScbeClient.groovy",
+		"/usr/local/mod/moderation-test/moderation-test-common/src/main/groovy/com/nokia/moderation/test/common/utils/https:::stg.data.nokia.com:scbe:v20:collection - 5",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/conf/routes",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/controllers/Application.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/views/login.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/views/index.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/views/main.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/views/addArticle.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/models/User.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/app/models/Article.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/conf/evolutions/default/1.sql",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/conf/application.conf",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/Kn/conf/evolutions/default/2.sql",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/test/ApplicationTest.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/controllers/Projects.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/controllers/Secured.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/controllers/Application.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/test/controllers/LoginTest.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/conf/routes",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/test/controllers/ProjectsTest.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/login.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/main.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/index.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/models/Project.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/conf/test-data.yml",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/test/IntegrationTest.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/test/models/ModelsTest.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/models/User.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/models/Task.java",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/Ensime/logs/server.log",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/User/play-test.sublime-build",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/PersistentRegexHighlight/README.md",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/Browser Refresh/Default (OSX).sublime-keymap",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/memTask/README.md",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/projects/item.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/projects/group.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/html/projects/item.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/html/projects/group.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/views/tasks/item.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/conf/application.conf",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/app/Global.java",
+		"/usr/local/mod/src/dbdeploy/deltas/LHR/061_initial_filter_keywords_data.sql",
+		"/Users/hasriniv/Desktop/resolve_incidents.rb",
+		"/usr/local/mod/src/dbdeploy/deltas/LHR/059_create_filter_words_table.sql",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/todolist/conf/routes",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/todolist/app/controllers/Application.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/todolist/app/models/Task.java",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/todolist/app/views/index.scala.html",
+		"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/todolist/conf/application.conf",
+		"/Users/hasriniv/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/hasriniv/scripts/eustg2.sh",
+		"/Users/hasriniv/scripts/eustg1.sh",
+		"/Users/hasriniv/scripts/apstg1.sh",
+		"/Users/hasriniv/scripts/apstg2.sh",
+		"/Users/hasriniv/Desktop/dbdump/notes/for ubuntu@ec2-54-234-8-48.compute-1.amazonaws.com",
+		"/Users/hasriniv/scripts/dbcompare-incident.sh",
+		"/Users/hasriniv/scripts/dbcompare-sticker.sh",
+		"/Users/hasriniv/scripts/stage2-jumphost.sh",
+		"/Users/hasriniv/scripts/stage2.sh",
+		"/Users/hasriniv/scripts/clean.sh",
+		"/Users/hasriniv/scripts/stage1.sh",
+		"/Users/hasriniv/Desktop/dbdump/results/euwest-20130124.txt",
+		"/Users/hasriniv/Desktop/dbcompare/incident-error.diff",
+		"/Users/hasriniv/Desktop/slave-test.txt",
+		"/Users/hasriniv/Desktop/rds-test.txt",
+		"/Users/hasriniv/haris_personal_dashboard/config.ru",
+		"/Users/hasriniv/scripts/dbcompare.sh",
+		"/Users/hasriniv/scripts/dbcompare-moderation_user.sh",
+		"/Users/hasriniv/scripts/dbcompare-changelog.sh",
+		"/Users/hasriniv/scripts/dbcomnew",
+		"/usr/local/mod/moderation-test/moderation-test-tool/src/main/groovy/com/nokia/moderation/test/common/tools/CmTestTool.groovy",
+		"/usr/local/mod/moderation-test/moderation-test-fake/src/main/webapp/WEB-INF/web.xml",
+		"/Users/hasriniv/Desktop/dbschema.txt",
+		"/Users/hasriniv/Desktop/dbdump/results/euwest-20130122.txt",
+		"/usr/local/mod/moderation-test/moderation-utils-fakeserver/pom.xml",
+		"/usr/local/mod/moderation-test/pom.xml",
+		"/usr/local/mod/moderation-test/moderation-test-scenarios/pom.xml",
+		"/usr/local/mod/scripts/pipeline/pipeline_stepTBD_acceptance_test_with_cobertura.sh",
+		"/usr/local/mod/scripts/pipeline/s1-moderation-unit-tests-and-rpm.sh",
+		"/usr/local/mod/scripts/pipeline/s2-moderation-ROW-integration.sh",
+		"/usr/local/mod/scripts/pipeline/s3-moderation-ROW-only-scenarios.sh",
+		"/usr/local/mod/scripts/pipeline/s4-moderation-china-only-scenarios.sh",
+		"/usr/local/mod/scripts/pipeline/s5-moderation-china-integration.sh",
+		"/usr/local/mod/scripts/pipeline/s6-moderation-customer-tests-cdc.sh",
+		"/usr/local/mod/scripts/pipeline/open_code_coverage_reports.sh",
+		"/usr/local/mod/devtools/maven/settings.xml",
+		"/Users/hasriniv/Desktop/settings.xml",
+		"/usr/local/mod/moderation-cdc/sdc/README",
+		"/usr/local/mod/moderation-test/moderation-test-cdc/pom.xml",
+		"/usr/local/mod/moderation-database-plugin/src/main/java/com/nokia/gate5/places/dbdeploy/maven/AbstractDatabaseMojo.java",
+		"/usr/local/mod/moderation-database-plugin/src/main/java/com/nokia/gate5/places/dbdeploy/maven/CreateDatabaseMojo.java",
+		"/usr/local/mod/moderation-database-plugin/src/main/java/com/nokia/gate5/places/dbdeploy/maven/UpdateDatabaseMojo.java",
+		"/usr/local/mod/moderation-database-plugin/pom.xml",
+		"/usr/local/mod/moderation-database-plugin/README",
+		"/Users/hasriniv/Desktop/totalScenarios.txt",
+		"/Users/hasriniv/Desktop/jenkins/step2.txt",
+		"/usr/local/mod/moderation-cdc/opr/pom.xml",
+		"/Users/hasriniv/Desktop/dbdump/notes/stats",
+		"/Users/hasriniv/Desktop/dbdump/results/euwest-new.txt",
+		"/Users/hasriniv/Desktop/dbdump/results/useast-new-orig.txt",
+		"/Users/hasriniv/Desktop/migration_problems",
+		"/Users/hasriniv/Desktop/dbdump/user_grants_production_original",
+		"/Users/hasriniv/.m2/settings.xml",
+		"/usr/local/mod/moderation-test/moderation-test-lib/src/main/java/com/nokia/moderation/test/common/utils/SqsUtils.java",
+		"/usr/local/mod/pom.xml",
+		"/Users/hasriniv/.n2/settings.xml",
+		"/Users/hasriniv/Desktop/nexus_migration_notes",
+		"/usr/local/mod/pipeline_step1_code_coverage.sh",
+		"/usr/local/mod/moderation-server/pom.xml",
+		"/Users/hasriniv/Desktop/projects",
+		"/usr/local/come/moderation-test/moderation-test-lib/src/main/groovy/com/nokia/moderation/test/common/utils/fakeserver/sdc/FakeSdcResource.groovy",
+		"/Users/hasriniv/Desktop/test.txt",
+		"/usr/local/pmod/moderation-test/moderation-test-lib/src/main/groovy/com/nokia/moderation/test/common/utils/XmlIncidentBuilder.groovy",
+		"/Users/hasriniv/Desktop/moderation-test/moderation-test-common/src/main/groovy/com/nokia/moderation/test/common/utils/RestQueryHelper.groovy",
+		"/usr/local/pmod/moderation-service/src/main/resources/moderation.default.properties",
+		"/usr/local/pmod/moderation-test/moderation-test-proposed-place/src/main/java/com/nokia/proposedplaces/moderation/utils/TestUtilsConstants.java",
+		"/usr/local/pmod/moderation-test/moderation-test-proposed-place/src/main/java/com/nokia/proposedplaces/moderation/utils/LoadConfig.java",
+		"/usr/local/pmod/pom.xml",
+		"/usr/local/pmod/moderation-test/moderation-test-proposed-place/src/main/resources/cargo/moderation.properties"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks,/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks/test",
+			"/Users/hasriniv/Documents/personal/Workspaces/play-2.1.1/play-experiments/zentasks",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@Ignore",
+			"renameProject.*",
+			"renameProject",
+			"@Ignore",
+			"();\n",
+			"\\{",
+			",",
+			"}",
+			"{",
+			"\"",
+			"display",
+			"trout",
+			"display",
+			"\"));",
+			"timedo",
+			"memebers",
+			"\\:  ",
+			" memebers:",
+			"owner",
+			"   ",
+			"    ",
+			"      ",
+			"	",
+			"\\)",
+			" .*\\(com\\.nokia\\.gate5\\.places\\.moderation.*\\.",
+			" runScenario\\(com\\.nokia\\.gate5\\.places\\.moderation.*\\.",
+			" runScenario(com.nokia.gate5.places.moderation.restofworld.*\\.",
+			" runScenario(com.nokia.gate5.places.moderation.restofworld",
+			"}",
+			"moderation_user",
+			"LIMIT=",
+			"(\\*)",
+			"SIZE",
+			"fakeserver",
+			"http",
+			"groovy",
+			"fakeserver",
+			"slf",
+			"Running.*Scenario",
+			"Running",
+			"Running.*Scenario",
+			"Running com.nokia.gate5.places.moderation.scenarios.technical.",
+			"Running com.nokia.gate5.places.moderation.scenarios.duplicateplaces.",
+			"Running com.nokia.gate5.places.moderation.scenarios.basics.",
+			"Running com.nokia.gate5.places.moderation.scenarios.partners.",
+			"http://http://",
+			"http://dclan-dhcp163225.americas.nokia.com:8080",
+			"rep",
+			"cargo",
+			"Scenario\\:",
+			"^.*scenario\\:",
+			"lcmsHttpClient",
+			"ERROR",
+			"FAILURE!",
+			"^Scenario\\:",
+			"cdc-test",
+			"FAILURE!",
+			"accessing_",
+			"AccessingN",
+			"$1",
+			"$2",
+			"$1",
+			"harishdb02.ctxur5g4rjgo.us-east-1.rds.amazonaws.com",
+			"-pmypassword",
+			"undo",
+			"println",
+			"hudson-all-china-integration",
+			",hudson-all-china-integration",
+			"localhost",
+			"wagon",
+			"hudson",
+			"mockito",
+			"logging",
+			"jcl-",
+			"junit",
+			"/",
+			"cehckout",
+			"#	modified:   ",
+			"./pipeline",
+			"#	deleted:    ",
+			"#	modified:   ",
+			" 	modified:   ",
+			"#",
+			"# ",
+			"error",
+			"\\\"",
+			"\"",
+			"#	",
+			"#	modified:   ",
+			"#	deleted:    ",
+			"#	modified:   ",
+			"#   modified:   ",
+			"#	deleted:    ",
+			")",
+			"  runScenario(com.nokia.gate5.places.moderation.scenarios.",
+			"      1. ",
+			"1. ",
+			"      1. ",
+			"#",
+			"!",
+			"!!",
+			"''",
+			"!!!",
+			"	 	 	",
+			"Unassigned",
+			"Actions",
+			"Open",
+			"*",
+			"    ",
+			"        ",
+			"                ",
+			"\\n",
+			"\"",
+			"* ",
+			"     * ",
+			"&quot;",
+			"\"",
+			"&quot;",
+			"\"",
+			"#	",
+			"#	modified:   ",
+			"#	deleted:    ",
+			"&quot;",
+			"#	new file:   ",
+			"#	deleted:    ",
+			"#	modified:   ",
+			"#	",
+			"#	deleted:    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"{",
+			"\\,",
+			"\\}",
+			"\\{",
+			"\\\"",
+			"routing",
+			"tRout",
+			"routing",
+			"members",
+			": ",
+			"memebers:",
+			" memebers",
+			" ",
+			"",
+			"RANGE=",
+			"",
+			"http://",
+			"http://http://nexus.places.devbln.europe.nokia.com",
+			"",
+			"$2",
+			"$3",
+			"$2",
+			"harishmoderation01.ctxur5g4rjgo.us-east-1.rds.amazonaws.com",
+			"-pdarthvader",
+			"System.out.println(\"",
+			"dclan-dhcp163225.americas.nokia.com",
+			".",
+			"checkout",
+			"git cehckout ",
+			"/usr/local/mod/pipeline",
+			"git rm ",
+			"git add ",
+			" ",
+			"git add ",
+			"\"",
+			"\\\"",
+			"git add  ",
+			"git rm ",
+			"git add ",
+			"git rm ",
+			"",
+			"   1. ",
+			"      * ",
+			"1. ",
+			"---+ ",
+			"---++ ",
+			"*",
+			"---+++ ",
+			"|",
+			"|Unassigned|",
+			"",
+			"''",
+			"",
+			"\\\"",
+			"",
+			"\\\\\"",
+			"\\\"",
+			"&quot;",
+			"\"",
+			"&quot;",
+			"git add  ",
+			"git rm ",
+			"\"",
+			"git add     ",
+			"git rm    ",
+			"git add    ",
+			"git rm   ",
+			"git add   ",
+			"git rm  ",
+			"git add  ",
+			"git rm ",
+			"git add ",
+			"git rm",
+			"git add",
+			"\"",
+			"git add   ",
+			"git rm  ",
+			"git add  ",
+			"git rm  ",
+			"git add  ",
+			"git rm ",
+			"git add ",
+			"git rm ",
+			"git add",
+			"",
+			"git add ",
+			"",
+			"|",
+			"",
+			"---++ ",
+			"---+ ",
+			"",
+			"---++",
+			"",
+			"</strong>",
+			"",
+			"**",
+			"",
+			"---++",
+			"",
+			"*",
+			"",
+			"</strike> |",
+			"| <strike>",
+			" |",
+			"| ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 179.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"app/controllers/Application.java"
+			],
+			[
+				"main.sc",
+				"app/views/main.scala.html"
+			],
+			[
+				"index.s",
+				"app/views/index.scala.html"
+			],
+			[
+				"application",
+				"app/controllers/Application.java"
+			],
+			[
+				"art",
+				"app/models/Article.java"
+			],
+			[
+				"conf",
+				"conf/application.conf"
+			],
+			[
+				"applicationt",
+				"test/ApplicationTest.java"
+			],
+			[
+				"",
+				"/Users/hasriniv/scripts/stage1.sh"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}
