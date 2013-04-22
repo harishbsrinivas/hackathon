@@ -1,4 +1,6 @@
-This is your new Play 2.1 application
-=====================================
+1. Get developer credentials from http://developer.here.com/
+2. Edit public public/nokia_location_services.js and enter app_id  and authenticationToken in set_Creds()
+3. type 'play run' from root of RoadTrip folder 
+4. visit http://localhost:9000/mytrips/plantrip
 
-This file will be packaged with your application, when using `play dist`.
+Please note that this is a 'work in progress'   :)
