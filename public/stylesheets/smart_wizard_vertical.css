@@ -1,13 +1,13 @@
-/*   
-  SmartWizard 2.0 plugin 
+/*
+  SmartWizard 2.0 plugin
   jQuery Wizard control Plugin
   by Dipu
-  
+
   http://www.techlaboratory.net
   http://tech-laboratory.blogspot.com
 */
 .swMain {
-  position:relative;
+  position:absolute;
   display:block;
   margin:0;
   padding:0;
@@ -15,13 +15,15 @@
   overflow:visible;
   float:left;
   width:980px;/* */
+  top:300px;
+  left:300px;
 }
 .swMain .stepContainer {
   display:block;
   position: relative;
   margin: 0;
-  padding:0;    
-  border: 0px solid #CCC;    
+  padding:0;
+  border: 0px solid #CCC;
   overflow:hidden;
   clear:right;
   height:300px;
@@ -29,18 +31,18 @@
 
 .swMain .stepContainer div.content {
   display:block;
-  position: absolute;  
+  position: absolute;
   float:left;
   margin: 0;
-  padding:5px;    
-  border: 1px solid #CCC; 
-  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
-  color:#5A5655;   
-  background-color:#F8F8F8;  
+  padding:5px;
+  border: 1px solid #CCC;
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
+  background-color:#F8F8F8;
   height:300px;
   text-align:left;
-  overflow:auto;    
-  z-index:88; 
+  overflow:auto;
+  z-index:88;
   -webkit-border-radius: 5px;
   -moz-border-radius  : 5px;
   width:720px;
@@ -49,19 +51,19 @@
 
 .swMain div.actionBar {
   display:block;
-  position: relative; 
+  position: relative;
   clear:right;
-  margin:             3px 0 0 0;   
+  margin:             3px 0 0 0;
   border:             1px solid #CCC;
-  padding:            0;    
-  color:              #5A5655;   
+  padding:            0;
+  color:              #5A5655;
   background-color:   #F8F8F8;
   height:40px;
-/*  width:730px; 
-  float:right; */  
+/*  width:730px;
+  float:right; */
   text-align:left;
-  overflow:auto;    
-  z-index:88; 
+  overflow:auto;
+  z-index:88;
   -webkit-border-radius: 5px;
   -moz-border-radius  : 5px;
 
@@ -70,36 +72,36 @@
 .swMain .stepContainer .StepTitle {
   display:block;
   position: relative;
-  margin:0;   
+  margin:0;
   border:1px solid #E0E0E0;
-  padding:5px;   
-  font: bold 16px Verdana, Arial, Helvetica, sans-serif; 
-  color:#5A5655;   
+  padding:5px;
+  font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
   background-color:#E0E0E0;
   clear:both;
-  text-align:left; 
+  text-align:left;
   z-index:88;
   -webkit-border-radius: 5px;
-  -moz-border-radius  : 5px;    
+  -moz-border-radius  : 5px;
 }
 .swMain ul.anchor {
   position: relative;
   display:block;
   float:left;
   list-style: none;
-  padding: 0px;  
+  padding: 0px;
   margin: 5px 10px 0 0;
-  border: 0px solid #CCCCCC;    
+  border: 0px solid #CCCCCC;
   background: transparent; /*#EEEEEE */
 }
-.swMain ul.anchor li{ 
-  position: relative; 
+.swMain ul.anchor li{
+  position: relative;
   display:block;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   padding-top:3px;
   padding-bottom: 3px;
-  border: 0px solid #E0E0E0;      
+  border: 0px solid #E0E0E0;
   float: left;
   clear:both;
 }
@@ -149,40 +151,40 @@
   box-shadow: 1px 5px 10px #888;
 }
 .swMain ul.anchor li a.selected:hover {
-  color:#F8F8F8;  
-  background: #EA8511;  
+  color:#F8F8F8;
+  background: #EA8511;
 }
 
-.swMain ul.anchor li a.done { 
+.swMain ul.anchor li a.done {
   position:relative;
-  color:#FFF;  
-  background: #8CC63F;  
-  border: 1px solid #8CC63F;   
+  color:#FFF;
+  background: #8CC63F;
+  border: 1px solid #8CC63F;
   z-index:99;
 }
 .swMain ul.anchor li a.done:hover {
-  color:#5A5655;  
-  background: #8CC63F; 
-  border: 1px solid #5A5655;   
+  color:#5A5655;
+  background: #8CC63F;
+  border: 1px solid #5A5655;
 }
 .swMain ul.anchor li a.disabled {
-  color:#CCCCCC;  
+  color:#CCCCCC;
   background: #F8F8F8;
-  border: 1px solid #CCC;  
-  cursor:text;   
+  border: 1px solid #CCC;
+  cursor:text;
 }
 .swMain ul.anchor li a.disabled:hover {
-  color:#CCCCCC;  
-  background: #F8F8F8;     
+  color:#CCCCCC;
+  background: #F8F8F8;
 }
 
 .swMain ul.anchor li a.error {
-  color:#6c6c6c !important;  
+  color:#6c6c6c !important;
   background: #f08f75 !important;
-  border: 1px solid #fb3500 !important;      
+  border: 1px solid #fb3500 !important;
 }
 .swMain ul.anchor li a.error:hover {
-  color:#000 !important;       
+  color:#000 !important;
 }
 
 .swMain .buttonNext {
@@ -198,14 +200,14 @@
   outline-style:none;
   background-color:   #5A5655;
   border: 1px solid #5A5655;
-  -moz-border-radius  : 5px; 
-  -webkit-border-radius: 5px;    
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
 }
 .swMain .buttonDisabled {
   color:#F8F8F8  !important;
   background-color: #CCCCCC !important;
   border: 1px solid #CCCCCC  !important;
-  cursor:text;    
+  cursor:text;
 }
 .swMain .buttonPrevious {
   display:block;
@@ -220,8 +222,8 @@
   outline-style:none;
   background-color:   #5A5655;
   border: 1px solid #5A5655;
-  -moz-border-radius  : 5px; 
-  -webkit-border-radius: 5px;    
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
 }
 .swMain .buttonFinish {
   display:block;
@@ -236,8 +238,8 @@
   outline-style:none;
   background-color:   #5A5655;
   border: 1px solid #5A5655;
-  -moz-border-radius  : 5px; 
-  -webkit-border-radius: 5px;    
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
 }
 
 /* Form Styles */
@@ -254,33 +256,33 @@
 }
 
 .swMain .loader {
-  position:relative;  
+  position:relative;
   display:none;
-  float:left;  
+  float:left;
   margin: 2px 0 0 2px;
   padding:8px 10px 8px 40px;
-  border: 1px solid #FFD700; 
-  font: bold 13px Verdana, Arial, Helvetica, sans-serif; 
-  color:#5A5655;       
-  background: #FFF url(../images/loader.gif) no-repeat 5px;  
+  border: 1px solid #FFD700;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
+  background: #FFF url(../images/loader.gif) no-repeat 5px;
   -moz-border-radius  : 5px;
   -webkit-border-radius: 5px;
   z-index:998;
 }
 .swMain .msgBox {
-  position:relative;  
+  position:relative;
   display:none;
   float:left;
   margin: 4px 0 0 5px;
   padding:5px;
-  border: 1px solid #FFD700; 
-  background-color: #FFFFDD;  
-  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
-  color:#5A5655;         
+  border: 1px solid #FFD700;
+  background-color: #FFFFDD;
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
   -moz-border-radius  : 5px;
   -webkit-border-radius: 5px;
   z-index:999;
-  min-width:200px;  
+  min-width:200px;
 }
 .swMain .msgBox .content {
   font: normal 12px Verdana,Arial,Helvetica,sans-serif;
@@ -302,5 +304,5 @@
 }
 .swMain .msgBox .close:hover{
   color: #EA8511;
-  border: 1px solid #EA8511;  
+  border: 1px solid #EA8511;
 }

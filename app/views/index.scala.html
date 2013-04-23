@@ -1,14 +1,18 @@
 @(message: String)
 
 @main("Welcome to Road Trip") {
-
-  <div class="top">Road Trip</div>
-    <div class="main">Main<div class="left">My Trips
-    <ul>
-    <li><a href="/mytrips/recenttrips">Recent Trips</a></li>
-    <li><a href="/mytrips/upcomingtrips">Upcoming Trips</a></li>
-    <li><a href="/mytrips/plantrip">Plan New Trips</a></li>
-    </ul>
-    </div></div>
-
+    <div id="wrap">
+      <div id="nav">
+      <ul>
+        <li><a href="/mytrips/recenttrips">Recent Trips</a></li>
+        <li><a href="/mytrips/upcomingtrips">Upcoming Trips</a></li>
+        <li><a href="/mytrips/plantrip">Plan New Trips</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <img src="@routes.Assets.at("images/car2.jpg")" class="splash1">
+        <img src="@routes.Assets.at("images/scenery1.jpg")" class="splash2">
+        <img src="@routes.Assets.at("images/animal1.jpg")" class="splash3">
+      </div>
+    </div>
 }

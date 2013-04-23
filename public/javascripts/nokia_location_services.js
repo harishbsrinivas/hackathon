@@ -1,3 +1,5 @@
+var locations;
+
 function set_Creds(){
   nokia.Settings.set("appId", "");
   nokia.Settings.set("authenticationToken", "");
@@ -55,7 +57,7 @@ function set_coords(position) {
 
         // Function for receiving search results from places search and process them
         var processResults = function (data, requestStatus, requestId) {
-          var i, len, locations, marker;
+          var i, len, marker;
 
           if (requestStatus == "OK") {
             // The function findPlaces() and reverseGeoCode() of  return results in slightly different formats
