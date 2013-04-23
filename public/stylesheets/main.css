@@ -75,7 +75,6 @@ a:hover {color:#FF9900;}
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 100px;
-  position: relative;
   box-shadow: 0 0 50px rgba(0,0,0,.6);
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,.6);
   -moz-box-shadow: 0 0 50px rgba(0,0,0,.6);
@@ -97,7 +96,6 @@ a:hover {color:#FF9900;}
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 100px;
-  position: relative;
   box-shadow: 0 0 50px rgba(0,0,0,.6);
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,.6);
   -moz-box-shadow: 0 0 50px rgba(0,0,0,.6);
@@ -135,31 +133,28 @@ a:hover {color:#FF9900;}
   width:25%;
   height:35%;
   top:200px;
-  left:120px;
+  left:100px;
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 100px;
-  position: relative;
   box-shadow: 0 0 50px rgba(0,0,0,.6);
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,.6);
   -moz-box-shadow: 0 0 50px rgba(0,0,0,.6);
  display:block;
-  z-index: 107; /* stack order: background */
+  z-index: 106; /* stack order: background */
 }
-
-.splash2_normal {
+ .splash2_normal {
   position:absolute;
   background-color: #fff;
   width:25%;
   height:35%;
-  top:-225px;
-  left:1077px;
+  top:200px;
+  left:650px;
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 100px;
-  position: relative;
   box-shadow: 0 0 50px rgba(0,0,0,.6);
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,.6);
   -moz-box-shadow: 0 0 50px rgba(0,0,0,.6);
@@ -173,7 +168,7 @@ a:hover {color:#FF9900;}
   width:25%;
   height:35%;
   top:200px;
-  left:600px;
+  left:1200px;
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
@@ -185,6 +180,8 @@ a:hover {color:#FF9900;}
   z-index: 106; /* stack order: background */
 }
 
+
+
 body,
 html {
 margin:0;
@@ -192,3 +189,124 @@ padding:0;
 color:#fff;
 background:#000000;
 }
+
+@font-face {
+      font-family: 'NokiaPureTextLight';
+      src: url('../../res/../../font/nokiapuretextlight-webfont.eot');
+      src: url('../../res/../../font/nokiapuretextlight-webfont.eot?#iefix') format('eot'),
+        url('../../res/../../font/nokiapuretextlight-webfont.woff') format('woff'),
+        url('../../res/../../font/nokiapuretextlight-webfont.ttf') format('truetype'),
+        url('../../res/../../font/nokiapuretextlight-webfont.svg#webfontC3amkkTh') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+    body {
+      background-color:#FFFFFF;
+      font-family: 'NokiaPureTextLight';
+    }
+    .main-search {
+      -moz-border-radius: 10px 10px 10px 10px;
+      padding: 10px;
+      font-family: Arial,Helvetica,sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    .main-search .caption {
+      font-size: 12px;
+      margin-right: 5px;
+      color: #f5f5f5;
+      background-color: #1080DD;
+      font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .main-search .search-box-bckgrnd {
+      border: 1px solid #1080DD;
+      margin-right: 5px;
+      padding: 2px;
+      width: 98%;
+      color: #485773;
+      border-radius: 5px;
+      height: 20px;
+      padding: 2px;
+      font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .main-search .search-list {
+      padding: 10px;
+      background-color: #fff;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      width:100%;
+      position:absolute;
+      margin:20px 0px;
+      z-index: 5000;
+    }
+
+    .main-search .search-list dl {
+      margin: 0px;
+      margin-top: 5px;
+      overflow: none;
+    }
+
+    .main-search .search-list dt {
+      width: 100%;
+      background-color: #23435D;
+      text-align: center;
+      color: #fff;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      padding: 2px;
+    }
+
+    .main-search .search-list dd {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      margin: 2px;
+      background-color: #1181DD;
+      padding-left: 5px;
+      color: #f5f5f5;
+      padding: 5px;
+    }
+
+    .main-search .search-list dd.selected {
+      background-color: #4F97D2;
+      color: #f5f5f5;
+      cursor: pointer;
+
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+
+      -webkit-transform: scale(1.03);
+      -moz-transform: scale(1.03);
+      -o-transform: scale(1.03);
+    }
+
+
+    #searchPanel{
+      position:absolute;
+      height:auto;
+      width:50%;
+      border-style: thick;
+      border-color:#000;
+      top:20px;
+      left:300px;
+      margin-right: auto;
+      margin-left:auto;
+    }
+
+
+    #showPlace{
+      position:absolute;
+      height:auto;
+      width:50%;
+      top:70px;
+      left:300px;
+      margin-right: auto;
+      margin-left:auto;
+    }

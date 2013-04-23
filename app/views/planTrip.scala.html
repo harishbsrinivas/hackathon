@@ -51,56 +51,37 @@
     <li><a href="/mytrips/upcomingtrips">Upcoming Trips</a></li>
     <li><a href="/mytrips/plantrip">Plan New Trip</a></li>
     </ul></div>
-    <div id="main">
-    <div id="wizard" class="swMain">
-      <ul>
-        <li><a href="#step-1">
-              <label class="stepNumber">1</label>
-              <span class="stepDesc">
-                 Adding WayPoints<br />
-              </span>
-          </a></li>
-        <li><a href="#step-2">
-              <label class="stepNumber">2</label>
-              <span class="stepDesc">
-                 Search<br />
-              </span>
-          </a></li>
-        <li><a href="#step-3">
-              <label class="stepNumber">3</label>
-              <span class="stepDesc">
-                 Add<br />
-              </span>
-           </a></li>
-        <li><a href="#step-4">
-              <label class="stepNumber">4</label>
-              <span class="stepDesc">
-                 Save<br />
-              </span>
-          </a></li>
-      </ul>
-      <div id="step-1">
-          <h2 class="StepTitle">Adding a waypoint</h2>
-          <div>This wizard will allow you to add a waypoint to your trip. Search for a place
-          by entering its name in the search box above. Click the add waypoint button to add
-          the way point to your route. Click next to continue.</div>
-      </div>
-      <div id="step-2">
-          <h2 class="StepTitle">Search<div class="search"><input type="text" id="search"><button type="submit" onClick="getPlaceByName();">search</button></div></h2>
-          <div id="progress"></div>
-          <div id="mapContainer"></div>
-           <!-- step content -->
-      </div>
-      <div id="step-3">
-          <h2 class="StepTitle">Step 3 Title</h2>
-           <!-- step content -->
-      </div>
-      <div id="step-4">
-          <h2 class="StepTitle">Step 4 Title</h2>
-           <!-- step content -->
-      </div>
+    <div id="main"><div id="searchPanel">
+    <div id="customSearchBox" class="main-search">
+    <div module="SearchBox">
+      <input rel="searchbox-input" class="search-box-bckgrnd" type="text" />
+      <div rel="searchbox-list" class="search-list"></div>
     </div>
-    </div>
-</div>
+  </div></div>
+<div id="showPlace"></div>
+
+<script type="text/javascript" id="exampleJsSource">
+set_Creds();
+var customSearchBox = new nokia.places.widgets.SearchBox({
+    targetNode: "customSearchBox",
+    template: "customSearchBox",
+    searchCenter: function () {
+      return {
+        latitude: 0.0,
+        longitude: 0.0
+      };
+    },
+    onResults: function (data) {
+      set_Creds();
+      // The argument data, which is an instance of nokia.places.objectsSearchResponseView
+      // contains the search results
+            var place = new nokia.places.widgets.Place({
+                placeId: data.results.items[0].placeId,
+                targetNode: 'showPlace'
+           });
+
+    }
+  });
+  </script>
     </body>
 </html>
